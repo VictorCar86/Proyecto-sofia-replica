@@ -504,13 +504,36 @@ body {
     margin-left: 30px;
 }
 .info-help {
-    padding: 0 15px 0 30px;
+    padding-left: 30px;
+    width: 390px;
 }
-.button-help {
+.button-help-1 {
     background-color: var(--gris-claro);
-    border-radius: 4px 0 0 4px;
     border: var(--gris-oscuro) 1px solid;
+    border-radius: 4px 0 0 4px;
+    padding: 20px;
+    color: var(--azul-claro);
+    height: 63px;
+    width: 288px;
+    margin-bottom: 13px;
+    font-size: 1.1em;
+    float: left;
+}
+.button-help-1:hover {
+    background-color: var(--gris-oscuro);
+}
+.button-help-2 {
+    background-color: var(--azul-oscuro);
+    background-image: url(http://oferta.senasofiaplus.edu.co/sofia-oferta/images/go.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 4px 4px 0;
     margin-bottom: 12px;
     height: 63px;
-    width: 256px;
+    width: 72px;
+    float: right;
+    cursor: pointer;
+}
+.button-help-2:hover {
+    background-color: var(--azul-claro);
 }
