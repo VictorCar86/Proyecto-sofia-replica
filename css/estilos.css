@@ -445,6 +445,9 @@ body {
     background-color: var(--azul-claro);
 }
 
+.div-row-height-custom {
+    height: 320px;
+}
 .novelty-container {
     background-color: var(--gris-claro);
     border: var(--gris-oscuro) 1px solid;
@@ -536,4 +539,35 @@ body {
 }
 .button-help-2:hover {
     background-color: var(--azul-claro);
+}
+
+.questions {
+    background-color: var(--gris-denso);
+    border: 1px solid var(--gris-oscuro);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 1140px;
+    height: 60px;
+    padding: 16px 0;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+.info-questions {
+    position: relative;
+    float: left;
+    left: 104.5px;
+}
+.info-questions-button {
+    position: relative;
+    float: right;
+    right: 29px;
+    background-color: var(--verde);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 336px;
+    color: white;
+}
+.info-questions-button:hover {
+    background-color: var(--verde_oscuro);
 }
