@@ -131,7 +131,7 @@ body {
 }
 .filter {
     background-color: var(--gris-oscuro);
-    background-image: url(/assets/pin.png);
+    background-image: url("../assets/pin.png");
     background-repeat: no-repeat;
     background-position-x: 104px;
     background-position-y: 16px;
@@ -175,7 +175,7 @@ body {
     border: var(--gris-oscuro) 1px solid;
 }
 .image-signup {
-    background-image: url(/assets/register.png);
+    background-image: url("../assets/register.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 64px;
@@ -185,7 +185,7 @@ body {
     cursor: pointer;
 }
 .image-signup:hover {
-    background-image: url(/assets/register2.png);
+    background-image: url("../assets/register2.png");
 }
 .login-signup-text {
     margin: 18px 15px 19px 74px;
@@ -210,7 +210,7 @@ body {
 }
 .button-login-signup-2 {
     background-color: var(--verde_oscuro);
-    background-image: url(/assets/go.png);
+    background-image: url("../assets/go.png");
     background-repeat: no-repeat;
     background-position: center;
     float: right;
@@ -264,7 +264,7 @@ body {
     margin-top: 8px;
 }
 .footer-tel-img {
-    background-image: url(/assets/call.png);
+    background-image: url("../assets/call.png");
     background-repeat: no-repeat;
     height: 38px;
     width: 38px;
