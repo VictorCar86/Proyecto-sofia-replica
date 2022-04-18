@@ -51,6 +51,7 @@ body {
 .navbar-options-list {
     list-style: none;
     display: flex;
+    margin-bottom: 14px;
 }
 .navbar-options-button {
     padding: 12px 15px;
@@ -88,6 +89,25 @@ body {
     margin: 0 366px 0 366.5px;
     padding: 0 15px;
 }
+.route {
+    list-style: none;
+    font-size: 0.8em;
+    display: flex;
+    height: 18px;
+    margin: 26px 0 10px 50px;
+    padding-left: 39px;
+}
+.route li{
+    padding: 0 11px;
+    background-image: url("../assets/miga.png");
+    background-repeat: no-repeat;
+    background-position: -2px 2px;
+}
+.route li:nth-child(1){
+    background-image: none;
+    width: 49.3px;
+    padding: 0 11px;
+}
 .div-row {
     display: flex;
 }
@@ -114,7 +134,7 @@ body {
 .searcher {
     position: relative;
     background-color: var(--gris-denso);
-    height: 105px;
+    height: 110px;
     width: 730px;
     border-radius: 8px;
     padding: 6px 12px;
@@ -124,6 +144,7 @@ body {
     color: white;
     font-size: 14px;
     font-weight: normal;
+    margin-top: 18px;
     margin-bottom: 8px;
 }
 .filter-container {
@@ -133,7 +154,7 @@ body {
     background-color: var(--gris-oscuro);
     background-image: url("../assets/pin.png");
     background-repeat: no-repeat;
-    background-position-x: 104px;
+    background-position-x: 103px;
     background-position-y: 16px;
     width: 136px;
     height: 38px;
@@ -154,16 +175,17 @@ body {
 }
 .buscar-submit {
     position: relative;
-    left: 571px;
-    top: -40px;
+    font-weight: bold;
+    font-size: 14px;
+    left: 600px;
+    top: -38px;
     padding: 6px 12px;
-    font-size: 16.8px;
     background-color: var(--verde);
     color: white;
     border: none;
-    border-radius: 4px;
-    width: 143px;
-    height: 36px;
+    border-radius: 0 4px 4px 0;
+    width: 106px;
+    height: 38px;
     cursor: pointer;
 }
 .login-signup {
